@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    background-color: #1A1A1A; /* Dunkler Hintergrund wie im Bild */
+    width: 100%;
+    position: fixed;
+    top: 0; /* Fixieren am oberen Bildschirmrand */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between; /* Inhalte im Header trennen */
+    align-items: center; /* Vertikal zentrieren */
+    padding: 10px 50px; /* Anpassung des Seitenabstands */
+}
+
+.logo {
+    text-decoration: none;
+    color: #ffffff; /* Logo Farbanpassung */
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+.navigation ul {
+    list-style-type: none;
+    display: flex; /* Horizontales Layout der Links */
+}
+
+.navigation li {
+    margin-left: 20px; /* Abstand zwischen den Links */
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #ffffff; /* Farbe der Links */
+    font-weight: 500;
+    font-size: 1.1em;
+    transition: color 0.3s; /* Übergangseffekt für den Hover */
+}
+
+.navigation a:hover {
+    color: #601cfc; /* Hover Farbe wie im Bild */
+}
+
+.search-login {
+    display: flex; /* Layout der Such- und Anmeldefelder */
+    align-items: center;
+}
+
+.search-login input[type="search"] {
+    padding: 5px 10px;
+    margin-right: 10px; /* Abstand zwischen Suchfeld und Buttons */
+}
+
+.login-btn, .signup-btn {
+    background-color: #3a6cf4; /* Blaue Buttonfarbe */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-left: 10px; /* Abstand zwischen den Buttons */
+    cursor: pointer; /* Mauszeiger als Button anzeigen */
+}
+
+.signup-btn {
+    background-color: #601cfc; /* Lila Buttonfarbe */
+}
+
+/* Dropdown-Menü-Stile hier hinzufügen, ähnlich wie oben beschrieben. */
+
+/* Media Queries für Responsive Design hinzufügen. */
